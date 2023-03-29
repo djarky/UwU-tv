@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"  />
+
+    <meta charset="UTF-8">
+    <title>UwU tv</title>
+
+  
+
+
+
+
+  </head>
+  <body>
+    <form>
+      <div class="search-container">
+
+<button id="serverBtn" type="button" onclick="showServerMenu()">
+  <i class="fas fa-bars"></i>
+</button>
+
+<div id="serverMenu" class="search-menu">
+  <br>
+  <a href="#" onclick="setServer('YouTube')">Youtube</a>
+  <a href="#" onclick="setServer('dailymotion')">Dailymotion</a>
+  <a href="#" onclick="setServer('vimeo')">Vimeo</a>
+  <a href="#" onclick="setServer('py')">py flask</a>
+</div>
+
+        <input type="text" id="searchText">
+        <button  id="searchBtn" type="button" onclick="search()"><i class="fas fa-search "></i></button>
+      </div>
+    </form>
+    <br>
+    <video id="videoPlayer" style="width:100%" controls controlsList="fullscreen" poster="poster.png">
+      <source id="videoSource" src="" type="video/mp4">
+    </video>
+    <div id="playlist">
+      <table>
+        <thead>
+
+          <tr>
+            <th id="titulo" >Título</th>				
+            <th id="duracion" >Duración</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+<td id="updir" onclick="playVideo('main.m3u')">/.. </td>
+<td></td>
+      </table>
+    </div>
+    <script src="tube.js"></script>
+ <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript">
+    </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js">
+    </script> 
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script>
+playVideo("main.m3u");
+
+</script>
+  </body>
+</html>

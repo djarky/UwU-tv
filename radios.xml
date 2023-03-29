@@ -1,0 +1,405 @@
+<link name=".977 The 80's Channel" addr="http://www.977music.com/tunein/web/80s.asx" />
+
+<?xml version="1.0" encoding="utf-8"?>
+<file app="WiiMC" version="1.1.1">
+
+
+<folder name="Radio Networks">
+<folder name=".977 Music Network">
+<link name=".977 The 80's Channel" addr="http://www.977music.com/tunein/web/80s.asx" />
+<link name=".977 The 90's Channel" addr="http://www.977music.com/tunein/web/90s.asx" />
+<link name=".977 The Classic Rock Channel" addr="http://www.977music.com/tunein/web/classicrock.asx" />
+<link name=".977 The Comedy Channel" addr="http://www.977music.com/tunein/web/comedy.asx" />
+<link name=".977 The Country Channel" addr="http://www.977music.com/tunein/web/country.asx" />
+<link name=".977 The Hitz Channel" addr="http://www.977music.com/tunein/web/hitz.asx" />
+<link name=".977 The Mix Channel" addr="http://www.977music.com/tunein/web/mix.asx" />
+<link name=".977 The Oldies Channel" addr="http://www.977music.com/tunein/web/oldies128.asx" />
+<link name=".977 The Rock Channel" addr="http://www.977music.com/tunein/web/rock.asx" />
+</folder>
+<folder name="181 FM">
+<folder name="80's Hairband">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-hairband.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-hairband.asx"/>
+</folder>
+<folder name="90's Alternative">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-90salt.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-90salt.asx"/>
+</folder>
+<folder name="90's Country">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-90scountry.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-90scountry.asx"/>
+</folder>
+<link name="Acid Jazz ASX" addr="http://www.181.fm/stream/asx/181-acidjazz.asx"/>
+<folder name="Awesome 80's">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-awesome80s.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-awesome80s.asx"/>
+</folder>
+<folder name="Beatles">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-beatles.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-beatles.asx"/>
+</folder>
+<link name="BeBop Jazz ASX" addr="http://www.181.fm/stream/asx/181-bebop.asx"/>
+<folder name="Business Talk Radio">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-businesstalk.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-businesstalk.asx"/>
+</folder>
+<folder name="Chilled Out">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-chilled.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-chilled.asx"/>
+</folder>
+<link name="Chloe @181.FM ASX" addr="http://www.181.fm/stream/asx/181-chloe.asx"/>
+<folder name="Christmas Menu">
+<folder name="Christmas Kountry">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-xkkountry.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-xkkountry.asx"/>
+</folder>
+<folder name="Christmas Mix">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-xmix.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-xmix.asx"/>
+</folder>
+<folder name="Christmas Power">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-xpower.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-xpower.asx"/>
+</folder>
+<folder name="Christmas RnB">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-xtrue.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-xtrue.asx"/>
+</folder>
+<folder name="Christmas Rock">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-xrock.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-xrock.asx"/>
+</folder>
+<folder name="Christmas Smooth Jazz">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-xsmooth.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-xsmooth.asx"/>
+</folder>
+<folder name="Classical Guitar">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-classicalguitar.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-classicalguitar.asx"/></folder>
+<link name="Christmas Blender ASX" addr="http://www.181.fm/stream/asx/181-xblender.asx"/>
+<link name="Christmas Classics ASX" addr="http://www.181.fm/stream/asx/181-xtraditional.asx"/>
+<link name="Christmas Country ASX" addr="http://www.181.fm/stream/asx/181-xcountry.asx"/>
+<link name="Christmas Fun ASX" addr="http://www.181.fm/stream/asx/181-xfun.asx"/>
+<link name="Christmas Gospel ASX" addr="http://www.181.fm/stream/asx/181-xgospel.asx"/>
+<link name="Christmas Highway ASX" addr="http://www.181.fm/stream/asx/181-xhighway.asx"/>
+<link name="Christmas Kids ASX" addr="http://www.181.fm/stream/asx/181-xkids.asx"/>
+<link name="Christmas Oldies ASX" addr="http://www.181.fm/stream/asx/181-xoldies.asx"/>
+<link name="Christmas Soundtracks ASX" addr="http://www.181.fm/stream/asx/181-xsoundtrax.asx"/>
+<link name="Christmas Spirit ASX" addr="http://www.181.fm/stream/asx/181-xspirit.asx"/>
+<link name="Christmas Standards ASX" addr="http://www.181.fm/stream/asx/181-xstandards.asx"/>
+<link name="Christmas Swing ASX" addr="http://www.181.fm/stream/asx/181-xswing.asx"/>
+<link name="Classical Jazz ASX" addr="http://www.181.fm/stream/asx/181-classicaljazz.asx"/>
+<link name="Classical Music ASX" addr="http://www.181.fm/stream/asx/181-classical.asx"/>
+</folder>
+<folder name="Classic Buzz (Alt)">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-classicbuzz.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-classicbuzz.asx"/>
+</folder>
+<folder name="Classic Hits 181">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-greatoldies.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-greatoldies.asx"/>
+</folder>
+<folder name="Comedy Club">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-comedy.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-comedy.asx"/>
+</folder>
+<folder name="Energy 93 (EuroDance)">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-energy93.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-energy93.asx"/>
+</folder>
+<folder name="Energy 98">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-energy98.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-energy98.asx"/>
+</folder>
+<folder name="Front Porch (Bluegrass)">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-frontporch.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-frontporch.asx"/>
+</folder>
+<link name="Fusion Jazz ASX" addr="http://www.181.fm/stream/asx/181-fusionjazz.asx"/>
+<folder name="Good Time Oldies">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-goodtime.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-goodtime.asx"/>
+</folder>
+<folder name="Highway 181">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-highway.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-highway.asx"/>
+</folder>
+<folder name="Jammin 181">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-jammin.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-jammin.asx"/>
+</folder>
+<folder name="Kickin' Country">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-kickincountry.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-kickincountry.asx"/>
+</folder>
+<folder name="Lifestyle Talk Radio">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-lifestyletalk.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-lifestyletalk.asx"/>
+</folder>
+<folder name="Lite 80's">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-lite80s.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-lite80s.asx"/>
+</folder>
+<folder name="Lite 90's">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-lite90s.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-lite90s.asx"/>
+</folder>
+<folder name="Mellow Gold">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-mellow.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-mellow.asx"/>
+</folder>
+<folder name="Old School HipHop/RnB">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-oldschool.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-oldschool.asx"/>
+</folder>
+<folder name="Party 181">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-party.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-party.asx"/>
+</folder>
+<folder name="Power 181 (Top40)">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-power.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-power.asx"/>
+</folder>
+<folder name="Punk Hardcore">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-punk.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-punk.asx"/>
+</folder>
+<folder name="Real Country">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-realcountry.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-realcountry.asx"/>
+</folder>
+<link name="Reggae Roots ASX" addr="http://www.181.fm/stream/asx/181-reggae.asx"/>
+<folder name="Rock 40 (Rock n Roll)">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-rock40.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-rock40.asx"/>
+</folder>
+<folder name="Rock 181">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-rock.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-rock.asx"/>
+</folder>
+<link name="Salsa ASX" addr="http://www.181.fm/stream/asx/181-salsa.asx"/>
+<link name="Sensual World ASX" addr="http://www.181.fm/stream/asx/181-sensual.asx"/>
+<folder name="Smooth AC">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-smoothac.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-smoothac.asx"/>
+</folder>
+<folder name="Soul">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-soul.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-soul.asx"/>
+</folder>
+<folder name="Star 90's">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-star90s.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-star90s.asx"/>
+</folder>
+<folder name="Super 70s">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-70s.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-70s.asx"/>
+</folder>
+<link name="Techno Club ASX" addr="http://www.181.fm/stream/asx/181-technoclub.asx"/>
+<folder name="The Ball (1stGenDance)">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-ball.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-ball.asx"/>
+</folder>
+<folder name="The Beat (HipHop/RnB)">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-beat.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-beat.asx"/>
+</folder>
+<folder name="The Box (Urban)">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-thebox.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-thebox.asx"/>
+</folder>
+<folder name="The Breeze">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-breeze.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-breeze.asx"/>
+</folder>
+<folder name="The Buzz (Alt.Rock)">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-buzz.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-buzz.asx"/>
+</folder>
+<folder name="The Eagle (Classic)">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-eagle.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-eagle.asx"/>
+</folder>
+<folder name="The Heart (LoveSongs)">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-heart.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-heart.asx"/>
+</folder>
+<folder name="The Mix">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-themix.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-themix.asx"/>
+</folder>
+<folder name="The Office">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-office.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-office.asx"/>
+</folder>
+<folder name="The Point">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-thepoint.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-thepoint.asx"/>
+</folder>
+<folder name="The Rock! (HardRock)">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-hardrock.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-hardrock.asx"/>
+</folder>
+<link name="Trance Jazz ASX" addr="http://www.181.fm/stream/asx/181-trancejazz.asx"/>
+<link name="Trinity HipHop ASX" addr="http://www.181.fm/stream/asx/181-trinityhiphop.asx"/>
+<link name="True Blues ASX" addr="http://www.181.fm/stream/asx/181-blues.asx"/>
+<folder name="True RnB">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-rnb.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-rnb.asx"/>
+</folder>
+<folder name="UK top 40">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-uktop40.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-uktop40.asx"/>
+</folder>
+<folder name="US 181">
+<link name="PLS for WinAMP" addr="http://www.181.fm/stream/pls/181-us181.pls"/>
+<link name="ASX for wmplayer" addr="http://www.181.fm/stream/asx/181-us181.asx"/></folder>
+<link name="Vocal Jazz ASX" addr="http://www.181.fm/stream/asx/181-vocals.asx"/>
+</folder>
+<folder name="AddictedToRadio (formerly 1ClubFM)">
+<folder name="TOP 40 POP">
+<link name="At Work – Your Office Station" addr="http://addictedtoradio.com/Listen/AAC/11510.pls"/>
+<link name="Channel One (All today’s hits, one channel)" addr="http://addictedtoradio.com/Listen/AAC/9710.pls"/>
+<link name="Power (Today’s Hip-Hop and RnB)" addr="http://addictedtoradio.com/Listen/AAC/10610.pls"/>
+<link name="Mix 106 (Today’s Hot Adult Contemporary)" addr="http://addictedtoradio.com/Listen/AAC/9610.pls"/></folder>
+<folder name="RnB HIP-HOP">
+<link name="90s Hip-Hop RnB Channel" addr="http://addictedtoradio.com/Listen/AAC/14310.pls"/>
+<link name="Classic RnB Channel" addr="http://addictedtoradio.com/Listen/AAC/11910.pls"/>
+<link name="Old School Rap Channel" addr="http://addictedtoradio.com/Listen/AAC/14910.pls"/>
+<link name="Quiet Storm Channel" addr="http://addictedtoradio.com/Listen/AAC/12110.pls"/>
+<link name="Skatin Jamz Channel (Old School)" addr="http://addictedtoradio.com/Listen/AAC/15110.pls"/>
+<link name="V101 (Today’s RnB and Old School)" addr="http://addictedtoradio.com/Listen/AAC/10710.pls"/></folder>
+<folder name="ROCK">
+<link name="Classic Alternative Channel (90′s)" addr="http://addictedtoradio.com/Listen/AAC/13810.pls"/>
+<link name="Classic Rock Hits Channel" addr="http://addictedtoradio.com/Listen/AAC/12310.pls"/>
+<link name="Classic New Wave Channel (80′s)" addr="http://addictedtoradio.com/Listen/AAC/15310.pls"/>
+<link name="G93 (Today’s Hard Rock)" addr="http://addictedtoradio.com/Listen/AAC/15510.pls"/>
+<link name="Garage Punk Channel" addr="http://addictedtoradio.com/Listen/AAC/15610.pls"/>
+<link name="Hair Voltage Channel (80′s Rock and more)" addr="http://addictedtoradio.com/Listen/AAC/15710.pls"/>
+<link name="Love Bites Channel (Rock Ballads)" addr="http://addictedtoradio.com/Listen/AAC/15910.pls"/>
+<link name="Q97 (Today’s Modern Rock Alternative)" addr="http://addictedtoradio.com/Listen/AAC/16010.pls"/></folder>
+<folder name="DANCE EDM">
+<link name="Dance Hits Chicago" addr="http://addictedtoradio.com/Listen/AAC/10010.pls"/>
+<link name="Breakbeat Channel" addr="http://addictedtoradio.com/Listen/AAC/13010.pls"/>
+<link name="The Chillout Lounge Channel" addr="http://addictedtoradio.com/Listen/AAC/14410.pls"/>
+<link name="Electro Dance Channel" addr="http://addictedtoradio.com/Listen/AAC/13210.pls"/>
+<link name="The House Channel" addr="http://addictedtoradio.com/Listen/AAC/12610.pls"/>
+<link name="Strictly Dance Radio" addr="http://addictedtoradio.com/Listen/AAC/18210.pls"/>
+<link name="Trance Channel" addr="http://addictedtoradio.com/Listen/AAC/13610.pls"/></folder>
+<folder name="DANCE (OLD SCHOOL)">
+<link name="90′s Dance Beyond Channel" addr="http://addictedtoradio.com/Listen/AAC/13910.pls"/>
+<link name="Freestyle Express Channel" addr="http://addictedtoradio.com/Listen/AAC/14710.pls"/>
+<link name="Jammin Oldies (1035 The Beat)" addr="http://addictedtoradio.com/Listen/AAC/9010.pls"/>
+<link name="Studio 54 Disco Channel" addr="http://addictedtoradio.com/Listen/AAC/9810.pls"/>
+<link name="WBMX Hot Mix Classics (Classic House Chicago Style)" addr="http://addictedtoradio.com/Listen/AAC/10310.pls"/></folder>
+<folder name="DECADES">
+<link name="70s Lite Hits Channel" addr="http://addictedtoradio.com/Listen/AAC/9210.pls"/>
+<link name="70s Pop Hits Channel" addr="http://addictedtoradio.com/Listen/AAC/9110.pls"/>
+<link name="80s Lite Hits Channel" addr="http://addictedtoradio.com/Listen/AAC/9410.pls"/>
+<link name="80s Pop Hits Channel" addr="http://addictedtoradio.com/Listen/AAC/9310.pls"/>
+<link name="90s Pop Hits Channel" addr="http://addictedtoradio.com/Listen/AAC/14010.pls"/></folder>
+<folder name="BLUES JAZZ">
+<link name="Bar Rockin’ Blues Channel" addr="http://addictedtoradio.com/Listen/AAC/11710.pls"/>
+<link name="Big Band Cantina Channel" addr="http://addictedtoradio.com/Listen/AAC/16510.pls"/>
+<link name="Blues Classics Channel" addr="http://addictedtoradio.com/Listen/AAC/11610.pls"/>
+<link name="Jazz Masters Channel" addr="http://addictedtoradio.com/Listen/AAC/16810.pls"/>
+<link name="Smooth Jazz Channel" addr="http://addictedtoradio.com/Listen/AAC/17510.pls"/>
+<link name="Swing Thing Channel" addr="http://addictedtoradio.com/Listen/AAC/18110.pls"/></folder>
+<folder name="COUNTRY AMERICANA">
+<link name="Bar Rockin Country Channel" addr="http://addictedtoradio.com/Listen/AAC/11010.pls"/>
+<link name="The Bluegrass Channel" addr="http://addictedtoradio.com/Listen/AAC/12410.pls"/>
+<link name="Cajun Fest Channel" addr="http://addictedtoradio.com/Listen/AAC/11310.pls"/>
+<link name="Classic Country Channel" addr="http://addictedtoradio.com/Listen/AAC/10910.pls"/>
+<link name="Hit Kicker Channel (Today’s Country Hits)" addr="http://addictedtoradio.com/Listen/AAC/10810.pls"/>
+<link name="Ladies Of Country Channel" addr="http://addictedtoradio.com/Listen/AAC/11110.pls"/></folder>
+<folder name="OLDIES (20′s-60′s)">
+<link name="Easy Listening Standards Channel" addr="http://addictedtoradio.com/Listen/AAC/16710.pls"/>
+<link name="The Oldies Channel" addr="http://addictedtoradio.com/Listen/AAC/12010.pls"/></folder>
+<folder name="LATIN WORLD REGGAE">
+<link name="Latino Caliente Channel" addr="http://addictedtoradio.com/Listen/AAC/16910.pls"/>
+<link name="Merengue Channel" addr="http://addictedtoradio.com/Listen/AAC/17010.pls"/>
+<link name="Reggae Roots Channel" addr="http://addictedtoradio.com/Listen/AAC/17110.pls"/>
+<link name="Reggaeton Channel" addr="http://addictedtoradio.com/Listen/AAC/17210.pls"/>
+<link name="Salsa Channel" addr="http://addictedtoradio.com/Listen/AAC/17310.pls"/></folder>
+<folder name="CLASSICAL RELAXING">
+<link name="The Classical Channel" addr="http://addictedtoradio.com/Listen/AAC/14510.pls"/>
+<link name="Day Spa Channel" addr="http://addictedtoradio.com/Listen/AAC/15010.pls"/></folder>
+<folder name="NEWS TALK INFO">
+<link name="Comedy Channel" addr="http://addictedtoradio.com/Listen/AAC/17910.pls"/></folder>
+</folder>
+<link name="Arizona's Coyote Country" addr="http://us1.internet-radio.com:8442/live.m3u" />
+<folder name="Florida">
+<link name="Classic Rock Florida" addr="http://us2.internet-radio.com:8046/listen.pls" />
+<link name="Easy Hits Florida" addr="http://us1.internet-radio.com:8180/listen.pls" />
+<link name="Motown Magic Oldies" addr="http://uk3.internet-radio.com:8126/listen.pls" />
+<link name="Smooth Jazz Florida" addr="http://us1.internet-radio.com:11094/listen.pls" />
+</folder>
+<folder name="Nirvana Radio">
+<link name="Ambient 128k" addr="http://radio.108.pl:8002/listen.pls" />
+<link name="Ambient OGG" addr="http://radio.108.pl:8006/ambient.ogg.m3u" />
+<link name="Meditation 128k" addr="http://radio.108.pl:8004/listen.pls" />
+<link name="Meditation OGG" addr="http://radio.108.pl:8006/meditation.ogg.m3u" />
+<link name="Relaxation" addr="http://sc9106.xpx.pl:9106/listen.pls" />
+</folder>
+<folder name="RauteMusik (may freeze WiiMC)">
+<link name="RauteMusik - Big City Beats" addr="http://bcb-high.rautemusik.fm/listen.pls" />
+<link name="RauteMusik - Club" addr="http://club-high.rautemusik.fm/listen.pls" />
+<link name="RauteMusik - eXTreMe" addr="http://extreme-high.rautemusik.fm/listen.pls" />
+<link name="RauteMusik - Goldies" addr="http://goldies-high.rautemusik.fm/listen.pls" />
+<link name="RauteMusik - Harder" addr="http://harder-high.rautemusik.fm/listen.pls" />
+<link name="RauteMusik - House" addr="http://house-high.rautemusik.fm/listen.pls" />
+<link name="RauteMusik - Jam" addr="http://jam-high.rautemusik.fm/listen.pls" />
+<link name="RauteMusik - Lounge" addr="http://lounge-high.rautemusik.fm/listen.pls" />
+<link name="RauteMusik - Main" addr="http://main-high.rautemusik.fm/listen.pls" />
+<link name="RauteMusik - Oriental" addr="http://oriental-high.rautemusik.fm/listen.pls" />
+<link name="RauteMusik - Progressive" addr="http://progressive-high.rautemusik.fm/listen.pls" />
+<link name="RauteMusik - Schlager" addr="http://schlager-high.rautemusik.fm/listen.pls" />
+</folder>
+<folder name="Shouted FM">
+<link name="Shouted FM - Alternative" addr="http://www.shouted.fm/tunein/alternative-dsl.m3u" />
+<link name="Shouted FM - Black" addr="http://www.shouted.fm/tunein/black-dsl.m3u" />
+<link name="Shouted FM - Break" addr="http://www.shouted.fm/tunein/break-dsl.m3u" />
+<link name="Shouted FM - Club" addr="http://www.shouted.fm/tunein/club-dsl.m3u" />
+<link name="Shouted FM - Electro" addr="http://www.shouted.fm/tunein/electro-dsl.m3u" />
+<link name="Shouted FM - House" addr="http://www.shouted.fm/tunein/house-dsl.m3u" />
+<link name="Shouted FM - Main" addr="http://www.shouted.fm/tunein/main-dsl.m3u" />
+</folder>
+<folder name="SomaFM">
+<link name="Groove Salad" addr="http://somafm.com/groovesalad.pls"/>
+<link name="Secret Agent" addr="http://somafm.com/secretagent.pls"/>
+<link name="Drone Zone" addr="http://somafm.com/dronezone.pls"/>
+<link name="Indie Pop Rocks" addr="http://somafm.com/indiepop.pls"/>
+<link name="Cliqhop IDM" addr="http://somafm.com/cliqhop.pls"/>
+<link name="BeatBlender" addr="http://somafm.com/beatblender.pls"/>
+<link name="Tag's Trip" addr="http://somafm.com/tags.pls"/>
+<link name="Illinois Street Lounge" addr="http://somafm.com/illstreet.pls"/>
+<link name="Space Station Soma" addr="http://somafm.com/spacestation.pls"/>
+<link name="Doomed" addr="http://somafm.com/doomed.pls"/>
+<link name="Boot Liquor" addr="http://somafm.com/bootliquor.pls"/>
+<link name="Lush" addr="http://somafm.com/lush.pls"/>
+<link name="Digitalis" addr="http://somafm.com/digitalis.pls"/>
+<link name="Suburbs of Goa" addr="http://somafm.com/suburbsofgoa.pls"/>
+<link name="Sonic Universe" addr="http://somafm.com/sonicuniverse.pls"/>
+<link name="PopTron" addr="http://somafm.com/poptron.pls"/>
+<link name="Covers" addr="http://somafm.com/covers.pls"/>
+<link name="Black Rock FM" addr="http://somafm.com/brfm.pls"/>
+<link name="Mission Control" addr="http://somafm.com/missioncontrol.pls"/>
+<link name="480 Minutes" addr="http://somafm.com/480min.pls"/>
+<link name="Underground 80s" addr="http://somafm.com/u80s.pls"/>
+<link name="Deep Space One" addr="http://somafm.com/deepspaceone.pls"/>
+<link name="Left Coast 70s" addr="http://somafm.com/seventies130.pls"/>
+<link name="DEF CON Radio" addr="http://somafm.com/defcon.pls"/>
+<link name="The Trip" addr="http://somafm.com/thetrip.pls"/>
+<link name="Folk Forward" addr="http://somafm.com/folkfwd.pls"/>
+<link name="BAGeL Radio AltRock" addr="http://somafm.com/bagel.pls"/>
+<link name="PopTron" addr="http://somafm.com/poptron.pls"/>
+<link name="Fluid" addr="http://somafm.com/fluid.pls"/>
+<link name="Seven Inch Soul" addr="http://somafm.com/7soul.pls"/>
+<link name="ThistleRadio" addr="http://somafm.com/thistle.pls"/>
+<link name="Dub Step Beyond" addr="http://somafm.com/dubstep.pls"/>
+<link name="SF 10-33" addr="http://somafm.com/sf1033.pls"/>
+<link name="Metal Detector" addr="http://somafm.com/metal.pls"/>
+<link name="Earwaves" addr="http://somafm.com/earwaves.pls"/></folder>
+
+</folder>
+</file>

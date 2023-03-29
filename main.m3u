@@ -1,0 +1,16 @@
+//esto no es un m3u real
+//IPTv
+Title=iptv
+File=iptv.m3u
+Length=0
+//Series
+Title=series y pelis 
+File=gluvu.m3u
+Length=0
+//Radios
+Title=radios
+File=radios.m3u
+Length=0
+Title=radios xml
+File=radios.xml
+Length=0

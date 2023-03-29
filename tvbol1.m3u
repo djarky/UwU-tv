@@ -1,0 +1,28 @@
+#EXTM3U 
+#EXTINF:-1 tvg-id="156" tvg-name="+ Listas en M3U.CL" tvg-logo="https://i2.paste.pics/84dae4a003b365e9b71ea1c50eb61c21.png", + Listas en M3U.CL * | CL
+https://scl.edge.grupoz.cl/transmision/live/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="88" tvg-name="ATB" tvg-logo="https://lh3.googleusercontent.com/-pYhQxm-nnSI/XoKCElwsqbI/AAAAAAAAxU0/lZ6MJIwK9X4HJoXLxT7LEx80maBf7VfEgCK8BGAsYHg/s0/2020-03-30.png", ATB | BO
+https://mediacp.hostradios.com.ar:19360/atbcom/atbcom.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="981" tvg-name="Bolivia TV 7.2" tvg-logo="https://i2.paste.pics/20600a504d12eb0b41587fbc1b700289.png", Bolivia TV 7.2 | BO
+https://video1.getstreamhosting.com:1936/8224/8224/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1194" tvg-name="Bolivision" tvg-logo="https://i2.paste.pics/4dc5de183727a12e5701c57cddac2f28.png", Bolivision | BO
+https://d2byzrnrdb259r.cloudfront.net/hls/live.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="980" tvg-name="Megavision Santa Cruz" tvg-logo="https://i2.paste.pics/fec09de82f8dfa3d668fda6019d4a966.png", Megavision Santa Cruz | BO
+https://livefocamundo.com:8081/megavisiontv/index.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="90" tvg-name="PAT" tvg-logo="https://lh3.googleusercontent.com/-v4jR4z9omU8/XoJ-Dz5RZrI/AAAAAAAAxUM/6bQg9xKKf4wZ6qNDSlGz3wug0AKp2jamQCK8BGAsYHg/s0/2020-03-30.png", PAT | BO
+https://master.tucableip.com/pat/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="92" tvg-name="Red AD Venir Internacional" tvg-logo="https://lh3.googleusercontent.com/-xklYhEnMoEQ/XoJ-S16WTVI/AAAAAAAAxUQ/cVvGCBICihAm8ruAArXJD7R8WKYUPcNUQCK8BGAsYHg/s0/2020-03-30.png", Red AD Venir Internacional | BO
+http://streamer1.streamhost.org:1935/salive/GMIredadvenirl/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1176" tvg-name="Red Uno Cochabamba" tvg-logo="https://i2.paste.pics/d26de779a340ad1e14d41543c79c3174.png", Red Uno Cochabamba | BO
+http://streannlivereduno.cachefly.net/reduno1/reduno1/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1178" tvg-name="Red Uno La Paz" tvg-logo="https://i2.paste.pics/d26de779a340ad1e14d41543c79c3174.png", Red Uno La Paz | BO
+http://streannlivereduno.cachefly.net/reduno2/reduno2/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="1177" tvg-name="Red Uno Santa Cruz" tvg-logo="https://i2.paste.pics/d26de779a340ad1e14d41543c79c3174.png", Red Uno Santa Cruz | BO
+http://streannlivereduno.cachefly.net/reduno3/reduno3/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="93" tvg-name="RTP" tvg-logo="https://lh3.googleusercontent.com/-N3zh29QSPGc/XoJ-bfc5s-I/AAAAAAAAxUU/049-pOmZOb4ESR2rDTzzDCO6zO5niZ5-QCK8BGAsYHg/s0/2020-03-30.png", RTP | BO
+http://136.243.3.70:1935/RtpBolivia/RtpBolivia/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="94" tvg-name="TV HD Tropical" tvg-logo="https://lh3.googleusercontent.com/-srgTFcKOa90/X4yz-_574eI/AAAAAAAA6gA/dBaBDVECSbUEZ1SXE9Sv3s-ZWJkOUnmGgCK8BGAsYHg/s0/2020-10-18.png", TV HD Tropical | BO
+https://cloud2.streaminglivehd.com:1936/8222/8222/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-id="846" tvg-name="XTO TV" tvg-logo="https://lh3.googleusercontent.com/-7SXvBoxEU7U/YIoR7EX9WEI/AAAAAAABCCM/vilu9iV1RDcjDOT5ksg9xvMyyjceKWRowCK8BGAsYHg/s512/2021-04-28.png", XTO TV | BO
+https://614013e273786.streamlock.net:443/XtoTv/XtoTv/playlist.m3u8?PlaylistM3UCL
+https://614013e273786.streamlock.net:443/XtoTv/XtoTv/playlist.m3u8?PlaylistM3UCL

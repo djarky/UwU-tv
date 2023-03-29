@@ -1,0 +1,88 @@
+function ferchino(url) {
+
+fetch(url)
+    .then(response => response.text())
+    .then(data => {
+      const playlist = parsePlaylist(data);
+      if (playlist.length > 0) {
+        showPlaylist(playlist);
+			return  1;       
+      } else {
+       Materialize.toast('... ', 4000);
+       return 0;
+      }
+    })
+    .catch(error => {
+      console.error("Error al buscar la lista de reproducción:", error);
+     
+		return 0;
+    });
+
+} 
+
+function xmlchino(url) {
+  return new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4) {
+        if (xhr.status === 200) {
+          const playlist = parsePlaylist(xhr.responseText);
+          if (playlist.length > 0) {
+            showPlaylist(playlist);
+            resolve(true);
+          } else {
+            Materialize.toast('...', 4000);
+            resolve(false);
+          }
+        } else {
+          console.error("Error al buscar la lista de reproducción:", xhr.status);
+          resolve(false);
+        }
+      }
+    };
+    xhr.open('GET', url);
+    xhr.send();
+  });
+}
+
+function ajachino(url) {
+  return new Promise((resolve, reject) => {
+    $.ajax({
+      url: url,
+      method: 'GET',
+      dataType: 'text',
+      success: function(data) {
+        const playlist = parsePlaylist(data);
+        if (playlist.length > 0) {
+          showPlaylist(playlist);
+          resolve(true);
+        } else {
+          Materialize.toast('...', 4000);
+          resolve(false);
+        }
+      },
+      error: function(xhr, status, error) {
+        console.error("Error al buscar la lista de reproducción:", error);
+        resolve(false);
+      }
+    });
+  });
+}
+
+function axechino(url) {
+  return axios.get(url)
+    .then(response => {
+      const playlist = parsePlaylist(response.data);
+      if (playlist.length > 0) {
+        showPlaylist(playlist);
+        return true;
+      } else {
+        Materialize.toast('...', 4000);
+        return false;
+      }
+    })
+    .catch(error => {
+      console.error("Error al buscar la lista de reproducción:", error);
+      return false;
+    });
+}

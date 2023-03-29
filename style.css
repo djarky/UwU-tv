@@ -1,0 +1,205 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #444;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2px;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.search-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #f1f1f1;
+  padding: 12px;
+  margin-top: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.search-menu a {
+  display: block;
+  padding: 6px 12px;
+}
+
+.search-menu a:hover {
+  background-color: #ddd;
+}
+
+/* Estilo del icono */
+#serverBtn i {
+  font-size: 18px;
+  width: 10%;
+  float:left;
+}
+
+#serverBtn{
+  flex-grow: 0;
+  height: 30px;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 10%;
+}
+
+
+
+/* Estilo del campo de búsqueda */
+#searchText {
+  flex-grow: 1; /* para que el campo de búsqueda crezca y ocupe todo el espacio disponible */
+  height: 30px; /* para igualar la altura del campo de búsqueda con la del botón de búsqueda */
+  padding: 5px; /* para ajustar el relleno del campo de búsqueda */
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+
+/* Estilo del botón de búsqueda */
+#searchBtn {
+  height: 30px; /* para igualar la altura del botón de búsqueda con la del campo de búsqueda */
+  padding: 5px 20px; /* para ajustar el relleno del botón de búsqueda */
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #990000;
+}
+
+/* Estilo del contenedor de búsqueda */
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-right: -2px; /* para solucionar un pequeño espacio que se crea entre el campo y el botón */
+}
+
+/* Estilo de la lista de reproducción */
+#playlist {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  overflow-y: scroll;
+  max-height: 300px;
+  
+}
+
+
+
+#titulo{
+  float:left;
+  flex-grow: 1;
+  margin-right : 40px;
+} 
+
+#duracion{
+   float:right ;
+   
+} 
+
+#playlist tbody tr {
+  
+  flex-grow: 1;
+  border-top:        1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.2s ease-in-out;
+  align-items: right;
+}
+
+#playlist tbody tr:nth-child(even) {
+  background-color:#ebebeb;
+}
+
+
+#playlist tbody tr:hover {
+  background-color: #ffe6e6;
+}
+
+
+
+
+
+
+
+
+
+#playlist tbody td:first-child {
+  text-align: left;
+  float:left;
+  flex-grow: 1;
+  margin-right : 40px;  
+  box-sizing: border-box;
+}
+
+#playlist tbody td:last-child {
+  text-align: left ;
+  float:right ;
+  
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+
+th {
+  background-color: #333;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+
+
+
+/* Estilo de los elementos de la lista de reproducción en dispositivos móviles */
+@media only screen and (max-width: 480px) {
+  #searchText {
+    flex-grow: 0;
+    width: 100%;
+  
+  }
+
+  
+
+  .container {
+    padding: 10px;
+  }
+
+  #playlist {
+    margin: 10px 0;
+  }
+
+}
