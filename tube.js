@@ -44,6 +44,7 @@ function search() { const searchText = document.getElementById("searchText").val
   if (isPlayable(url)) {
     playVideo(url);
   } else {
+    //delete fixchino if you don't want double soups!
     fixchino(url);
     if(is_proxy()) {ferchino(corsproxy+url);} 
     else{ferchino(url);} 
