@@ -5,3 +5,7 @@ set in server menú YT DM Vm and also py for your flask python if some server th
 run server.py and replace in tube.js --> decoinserver(url) '/deco' for '{were are you server}/deco' and in  showServerMenu() --> '/show_deco' for '{were are you server}/show_deco'
 
 and when you load and there are message "loading..." and nothing do, change server to 'py flask' and press search button 
+
+
+https://djarky.github.io/UwU-tv/
+
