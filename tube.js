@@ -1,5 +1,8 @@
 
+let history=[] ;
 
+const corsproxy = "https://corsproxy.io/?" ;
+const flaskserver="https://putyourserver.here" ;
 
 // Obtener el botón y el menú
 const serverBtn = document.getElementById("serverBtn");
@@ -24,9 +27,8 @@ function setServer(server) {
   } else if (server === "dailymotion"){
     serverUrl = "http://riitube.rc24.xyz/wiimc/dailymotion/?q=";
   }
-  //put your server here
   else if (server === "py"){
-    serverUrl = "/show_deco?q=";
+    serverUrl = flaskserver+"/show_deco?q=";
   }
   // Cerrar el menú
   serverMenu.style.display = "none";
@@ -42,37 +44,19 @@ function search() { const searchText = document.getElementById("searchText").val
   if (isPlayable(url)) {
     playVideo(url);
   } else {
-    //delete fixchino if you don't want double soups! 
     fixchino(url);
-    ferchino(url);
+    if(is_proxy()) {ferchino(corsproxy+url);} 
+    else{ferchino(url);} 
+    
   }
 
   
-
+history.push({ file: url, title: 'search: ' +searchText, length: 0 });
 /* playVideo(url); */
 
 }
 
-function isPlayableMime(url) {
-  const video = document.createElement("video");
-  const mimeTypes = [
-    "video/mp4",
-    "video/webm",
-    "video/ogg",
-    "audio/mpeg",
-    "audio/wav",
-    "audio/ogg",
-    "audio/aac"
-  ];
 
-  for (let i = 0; i < mimeTypes.length; i++) {
-    if (video.canPlayType(mimeTypes[i]) && url.toLowerCase().endsWith("." + mimeTypes[i].split("/")[1])) {
-      return true;
-    }
-  }
-
-  return false;
-}
 
 function isPlayable(url) {
 const supportedExtensions = [ "3gp", "3g2", "aac", "aif", "asf", "avi", "divx", "flac", "flv", "m2v", "m4v", "midi", "mkv", "mov", "mp2", "mp3", "mp4", "mpe", "mpeg", "mpg", "oga", "ogg", "ogv", "opus", "qt", "ra", "ram", "rm", "swf", "ts", "vob", "wav", "webm", "wma", "wmv" ];
@@ -115,7 +99,9 @@ else{
 
 function fixchino(url) {
   try {
-   decoinserver(url);  
+   decoinserver(url);
+   
+  
   } catch (error) {
     console.error(error);
     Materialize.toast('Error loading playlist', 4000);
@@ -128,7 +114,7 @@ function fixchino(url) {
 function decoinserver(url) {
     return $.ajax({
     type: 'POST',
-    url: '/deco',//put your server here
+    url: flaskserver+'/deco',
     data: { link: url },
     dataType: 'text'
   });
@@ -219,6 +205,7 @@ function showPlaylist(playlist) {
     row.appendChild(lengthCell);
 
     row.addEventListener("click", () => {
+		history.push({ file: item.file , title: item.title, length: 0 });
       playVideo(item.file);
       highlightRow(row);
     });
@@ -254,11 +241,17 @@ function playVideo(file) {
 
 		
     
-          
+         ferchino(corsproxy+file); 
 		   fixchino(file) ; 
     		ferchino(file); 
 
+
+    if(is_proxy()) {
+    videoSource.setAttribute("src", corsproxy+file);
+    } else{
     videoSource.setAttribute("src", file);
+    } 
+    
     videoPlayer.load();
     videoPlayer.play();
 
@@ -290,4 +283,22 @@ window.onerror = function() {
   
 }
 
-  
+ 
+function showhistory() {
+
+try{
+showPlaylist(history) ;
+
+} catch (error) {
+    console.error(error);
+    Materialize.toast('Error loading history', 4000);
+}
+
+}
+
+
+function is_proxy() {
+const switchElement = document.getElementById("proxySwitch");
+return switchElement.checked;
+
+} 
