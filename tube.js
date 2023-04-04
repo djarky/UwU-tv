@@ -2,6 +2,7 @@
 let history=[] ;
 
 const corsproxy = "https://corsproxy.io/?" ;
+const corsproxy2 ="https://api.allorigins.win/raw?url=";
 const flaskserver="https://putyourserver.here" ;
 
 // Obtener el botón y el menú
@@ -44,7 +45,7 @@ function search() { const searchText = document.getElementById("searchText").val
   if (isPlayable(url)) {
     playVideo(url);
   } else {
-    //delete fixchino if you don't want double soups!
+    /*delete fixchino if don't have double soups*/
     fixchino(url);
     if(is_proxy()) {ferchino(corsproxy+url);} 
     else{ferchino(url);} 
@@ -53,7 +54,7 @@ function search() { const searchText = document.getElementById("searchText").val
 
   
 history.push({ file: url, title: 'search: ' +searchText, length: 0 });
-/* playVideo(url); */
+
 
 }
 
@@ -241,8 +242,8 @@ function playVideo(file) {
   const videoSource = document.getElementById("videoSource");
 
 		
-    
          ferchino(corsproxy+file); 
+         ferchino(corsproxy2+file); 
 		   fixchino(file) ; 
     		ferchino(file); 
 
