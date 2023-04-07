@@ -9,3 +9,6 @@ and when you load and there are message "loading..." and nothing do, change serv
 
 https://djarky.github.io/UwU-tv/
 
+
+
+[![Run on Repl.it](https://replit.com/badge/github/djarky/UwU-tv)](https://replit.com/new/github/djarky/UwU-tv)
