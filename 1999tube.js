@@ -50,8 +50,8 @@ const url = /^(http|https):\/\//.test(searchText) ? searchText : serverUrl + sea
     if(is_flask()) {fixchino(url);} 
     
 
-    if(is_proxy()) {ferchino(corsproxy+url);} 
-    else{ferchino(url);} 
+    if(is_proxy()) {xmlchino(corsproxy+url);} 
+    else{xmlchino(url);} 
     
   }
 
@@ -72,35 +72,33 @@ const supportedExtensions = [ "3gp", "3g2", "aac", "aif", "asf", "avi", "divx", 
 }
 
 
-
-
-function ferchino(url) {
-let playlist=[] ;
-fetch(url)
-    .then(response => response.text())
-    .then(data => {
-
-if (url.endsWith('.xml')) {
-   playlist = parsePlaylistXml(data);
-} 
-else{
-      playlist = parsePlaylist(data);
-} 
-      if (playlist.length > 0) {
-        showPlaylist(playlist);
-      	Materialize.toast('done', 1000);		    
+function xmlchino(url) {
+  var playlist = [];
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4) {
+      if (xhr.status === 200) {
+        var data = xhr.responseText;
+        if (url.endsWith('.xml')) {
+          playlist = parsePlaylistXml(data);
+        } else {
+          playlist = parsePlaylist(data);
+        }
+        if (playlist.length > 0) {
+          showPlaylist(playlist);
+         /* alert('done');*/
+        } else {
+          /*alert('...');*/
+        }
       } else {
-       Materialize.toast('... ', 800);
-         
+        /*alert('Error al buscar la lista de reproducción');*/
       }
-    })
-    .catch(error => {
-      console.error("Error al buscar la lista de reproducción:", error);
-   Materialize.toast('loading...', 4000); 
-	  
-    });
+    }
+  };
+  xhr.open('GET', url, true);
+  xhr.send();
+}
 
-} 
 
 function fixchino(url) {
   try {
@@ -114,16 +112,28 @@ function fixchino(url) {
 }
 
 
-
-
 function decoinserver(url) {
-    return $.ajax({
-    type: 'POST',
-    url: flaskserver+'/deco',
-    data: { link: url },
-    dataType: 'text'
+  return new Promise(function(resolve, reject) {
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', flaskserver+'/deco');
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhr.responseType = 'text';
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        resolve(xhr.responseText);
+      } else {
+        reject(new Error('Request failed. Status code: ' + xhr.status));
+      }
+    };
+    xhr.onerror = function() {
+      reject(new Error('Request failed'));
+    };
+    xhr.send('link=' + encodeURIComponent(url));
   });
 }
+
+
+
 
 
   
@@ -192,11 +202,13 @@ function parsePlaylistCrazy(str) {
 
 
 
+
 function showPlaylist(playlist) {
-  const tbody = document.querySelector("#playlist tbody");
+  const tbody = document.getElementById("playlist").getElementsByTagName("tbody")[0];
   tbody.innerHTML = "";
 
-  playlist.forEach((item, index) => {
+  for (let i = 0; i < playlist.length; i++) {
+    const item = playlist[i];
     const row = document.createElement("tr");
     const titleCell = document.createElement("td");
     const lengthCell = document.createElement("td");
@@ -209,33 +221,29 @@ function showPlaylist(playlist) {
     row.appendChild(titleCell);
     row.appendChild(lengthCell);
 
-    row.addEventListener("click", () => {
-		history.push({ file: item.file , title: item.title, length: 0 });
+    row.onclick = function() {
+      history.push({ file: item.file , title: item.title, length: 0 });
       playVideo(item.file);
       highlightRow(row);
-    });
+    };
 
     tbody.appendChild(row);
-  });
+  }
 }
 
 function highlightRow(row) {
-  const rows = document.querySelectorAll("#playlist tbody tr");
-  rows.forEach(row => {
+  const rows = document.getElementById("playlist").getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+  for (let i = 0; i < rows.length; i++) {
+    const row = rows[i];
     row.classList.remove("selected");
-  });
+  }
   row.classList.add("selected");
 }
 
 
 
 
-
       
-
-
-  
- 
   
  
 
@@ -243,10 +251,10 @@ function playVideo(file) {
   let videoPlayer = document.getElementById("videoPlayer");
   let videoSource = document.getElementById("videoSource");
 
-         ferchino(corsproxy+file); 
-         ferchino(corsproxy2+file); 
+         xmlchino(corsproxy+file); 
+         xmlchino(corsproxy2+file); 
 	   	 if(is_flask()) {fixchino(file);}
-    		 ferchino(file); 
+    		 xmlchino(file); 
 
 
   if (is_proxy()) {
@@ -270,14 +278,6 @@ function playVideo(file) {
   Materialize.toast('playing', 400);
   
 
-// Detectar el cambio de orientación del dispositivo
-  window.addEventListener('orientationchange', () => {
-    if (screen.orientation.type.startsWith('landscape')) {
-      videoPlayer.requestFullscreen(); // Poner el elemento en pantalla completa
-    } else {
-      document.exitFullscreen(); // Salir de la pantalla completa si se cambia a orientación portrait
-    }
- });
 
 
 window.onerror = function() {
@@ -317,11 +317,4 @@ return switchElement.checked;
 
 }
 
-   function rotateClockButton() {
-      showhistory();
-      var button = document.querySelector(".clock-button");
-      button.classList.add("rotate");
-      setTimeout(function() {
-        button.classList.remove("rotate");
-      }, 600);
-    }
+ 

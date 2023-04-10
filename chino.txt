@@ -86,3 +86,34 @@ function axechino(url) {
       return false;
     });
 }
+
+
+
+/*1999*/
+function xmlchino(url) {
+  var playlist = [];
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4) {
+      if (xhr.status === 200) {
+        var data = xhr.responseText;
+        if (url.endsWith('.xml')) {
+          playlist = parsePlaylistXml(data);
+        } else {
+          playlist = parsePlaylist(data);
+        }
+        if (playlist.length > 0) {
+          showPlaylist(playlist);
+          alert('done');
+        } else {
+          alert('...');
+        }
+      } else {
+        alert('Error al buscar la lista de reproducción');
+      }
+    }
+  };
+  xhr.open('GET', url, true);
+  xhr.send();
+}
+

@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UwU TV</title>
+
+  <style> @import url("1999.css");  </style>
+
+
+
+
+  </head>
+  <body>
+    <form>
+      <div class="search-container">
+
+<input type="button" id="serverBtn" value="&#9776;" onclick="showServerMenu()">
+
+<div id="serverMenu" class="search-menu">
+  <br>
+  <a href="#" onclick="setServer('YouTube')">Youtube</a>
+  <a href="#" onclick="setServer('dailymotion')">Dailymotion</a>
+  <a href="#" onclick="setServer('vimeo')">Vimeo</a>
+  <a href="#" onclick="setServer('wiist')">wiist</a>
+
+</div>
+
+        <input type="text" id="searchText">
+        <input type="button"  id="searchBtn" value="Buscar" onclick="search()">
+      </div>
+    </form>
+    <br>
+
+
+
+
+<input type="checkbox" id="proxySwitch">
+<input type="checkbox" id="pySwitch">
+
+<a href="#" onclick="xmlchino(flaskserver+'/show_deco?q=' );">py</a>
+
+<input type="button" id="clockSwitch" value="hist" onclick="showhistory();">
+
+    <embed id="videoPlayer" style="width:100%" src="video.mp4" autostart="false" poster="poster.png" > 
+
+
+    <div id="playlist">
+      <table>
+        <thead>
+
+          <tr>
+            <th id="titulo" >Título</th>				
+            <th id="duracion" >Duración</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+<td id="updir" onclick="playVideo('main.m3u');">/.. </td>
+<td id="historia" onclick="showhistory();">...</td>
+      </table>
+    </div>
+    <script src="1999tube.js"></script>
+    
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript">
+    </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js">
+    </script> 
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script>
+playVideo("main.m3u");
+
+</script>
+  </body>
+</html>

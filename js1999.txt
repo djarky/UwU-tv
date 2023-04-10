@@ -1,0 +1,63 @@
+function showPlaylist(playlist) {
+  const tbody = document.getElementById("playlist").getElementsByTagName("tbody")[0];
+  tbody.innerHTML = "";
+
+  for (let i = 0; i < playlist.length; i++) {
+    const item = playlist[i];
+    const row = document.createElement("tr");
+    const titleCell = document.createElement("td");
+    const lengthCell = document.createElement("td");
+
+    titleCell.textContent = item.title;
+
+    const duration = new Date(item.length * 1000).toISOString().substr(11, 8);
+    lengthCell.textContent = duration;
+
+    row.appendChild(titleCell);
+    row.appendChild(lengthCell);
+
+    row.onclick = function() {
+      history.push({ file: item.file , title: item.title, length: 0 });
+      playVideo(item.file);
+      highlightRow(row);
+    };
+
+    tbody.appendChild(row);
+  }
+}
+
+function highlightRow(row) {
+  const rows = document.getElementById("playlist").getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+  for (let i = 0; i < rows.length; i++) {
+    const row = rows[i];
+    row.classList.remove("selected");
+  }
+  row.classList.add("selected");
+}
+
+function xmlchino(url) {
+  var playlist = [];
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4) {
+      if (xhr.status === 200) {
+        var data = xhr.responseText;
+        if (url.endsWith('.xml')) {
+          playlist = parsePlaylistXml(data);
+        } else {
+          playlist = parsePlaylist(data);
+        }
+        if (playlist.length > 0) {
+          showPlaylist(playlist);
+          alert('done');
+        } else {
+          alert('...');
+        }
+      } else {
+        alert('Error al buscar la lista de reproducción');
+      }
+    }
+  };
+  xhr.open('GET', url, true);
+  xhr.send();
+}

@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #444;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #f1f1f1;
+  padding: 12px;
+  margin-top: 80px;
+}
+
+.search-menu a {
+  display: block;
+  padding: 6px 12px;
+}
+
+.search-menu a:hover {
+  background-color: #ddd;
+}
+
+#serverBtn i {
+  font-size: 18px;
+  width: 10%;
+  float:left;
+}
+
+#serverBtn{
+  height: 30px;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 10%;
+}
+
+#searchText {
+  height: 30px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+
+#searchBtn {
+  height: 30px;
+  width:20%
+  padding: 5px 20px;
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+#searchBtn:hover {
+  background-color: #990000;
+}
+
+.search-container {
+  margin-right: -2px;
+  width:100%
+}
+
+
+
+
+#playlist {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+#titulo{
+  float:left;
+  margin-right : 40px;
+} 
+
+#duracion{
+   float:right ;
+} 
+
+#playlist tbody tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  align-items: right;
+}
+
+#playlist tbody tr:nth-child(even) {
+  background-color:#ebebeb;
+}
+
+#playlist tbody tr:hover {
+  background-color: #ffe6e6;
+}
+
+#playlist tbody td:first-child {
+  text-align: left;
+  float:left;
+  margin-right : 40px;
+  box-sizing: border-box;
+}
+
+#playlist tbody td:last-child {
+  text-align: left;
+  float:right ;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #333;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+
