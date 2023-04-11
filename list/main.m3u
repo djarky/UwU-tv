@@ -1,1 +1,9 @@
-
+#EXTM3U
+#EXTINF:-1,iptv
+https://djarky.github.io/UwU-tv/list/iptv.m3u
+#EXTINF:-1,series y pelis
+https://djarky.github.io/UwU-tv/list/gluvu.m3u
+#EXTINF:-1,radios
+https://djarky.github.io/UwU-tv/list/radios.m3u
+#EXTINF:-1,radiosxml
+https://djarky.github.io/UwU-tv/list/radios.m3u
