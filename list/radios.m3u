@@ -1,9 +1,8 @@
 #EXTM3U
 #EXTINF:-1, BEAT
 http://playerservices.streamtheworld.com/api/livestream-redirect/XHSONFMAAC
-Title=Bolivia
-File=bolradio.m3u
-Length=0
+#EXTINF:-1, Bolivia
+https://djarky.github.io/UwU-tv/list/bolradio.m3u
 #EXTINF:-1, Bolivia?
 https://raw.githubusercontent.com/junguler/m3u-radio-music-playlists/main/live_online_radio/bolivia.m3u
 #EXTINF:-1, full radios
