@@ -1,0 +1,21 @@
+#EXTM3U
+#EXTINF:-1,all iptv
+https://iptv-org.github.io/iptv/index.m3u
+#EXTINF:-1,iptv es
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/es.m3u
+#EXTINF:-1,iptv lat
+https://iptv-org.github.io/iptv/regions/lac.m3u
+#EXTINF:-1,Bolivia 
+https://iptv-org.github.io/iptv/countries/bo.m3u
+Title=Bolivia1
+File=tvbol1.m3u
+Length=0
+Title=Bolivia2
+File=tvbol2.m3u
+Length=0
+#EXTINF:-1,PlutoTV
+https://i.mjh.nz/PlutoTV/all.m3u8
+#EXTINF:-1,PlutoTV mx
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/mx_pluto.m3u
+#EXTINF:-1,Nsfw 
+https://iptv-org.github.io/iptv/index.nsfw.m3u

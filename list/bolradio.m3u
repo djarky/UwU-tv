@@ -1,0 +1,17 @@
+#EXTM3U 
+#EXTINF:-1,Radio Disney 
+ http://144.217.67.108:9156/
+#EXTINF:-1, 
+http://streamingenbolivia.com/8002/stream
+#EXTINF:-1,F10
+https://video.live.com.bo:3253/live/f10hdlive.m3u8
+#EXTINF:-1,
+http://161.35.0.33:8070/radio
+#EXTINF:-1,la-doble
+http://209.133.216.3:7368/live
+#EXTINF:-1,
+http://stm11.streaming.profesional.bo:11296/;stream.mp3&amp;type=mp3
+#EXTINF:-1,
+http://161.35.0.33:8070/radio
+#EXTINF:-1,retrodance
+http://62.141.38.36:8080/retrodance.mp3
