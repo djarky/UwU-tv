@@ -1,21 +1,21 @@
-this is a random UwU player, for YT DM Vm also have iptv m3u function and playlist included. 
+this is a random awesome UwU player, rii YT DM VM  also this support  iptv m3u pls playlist (playlist included) . 
+turn pokeswitch for corsproxy.io 
 
-set in server menú YT DM Vm and also py for your flask python if some server that can't set connection because CORS
+py for your flask python if some server that can't set connection because CORS and corsproxy.io don't work
 
 
 clone this on repl.it with repl.it button
 run server.py and replace in tube.js --> const flaskserver="https://putyourserver.here" ;
-and when you load and there are message "loading..." and nothing do, change server to 'py flask' and press search button 
 
-
+Here!!! 
 https://djarky.github.io/UwU-tv/
 
-
+New Site! 
 https://djarky.github.io/UwU-tv/new-uwu-tv.html
 
-
+for old browsers if work
 https://djarky.github.io/UwU-tv/old-uwu-tv.html
 
-
+other things, try replace some txt notes... or no maybe don't work 
 
 [![Run on Repl.it](https://replit.com/badge/github/djarky/UwU-tv)](https://replit.com/new/github/djarky/UwU-tv)
