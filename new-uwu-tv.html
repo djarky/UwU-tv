@@ -78,12 +78,42 @@
 </span>
 </label>
 
-    <video id="videoPlayer" style="width:100%" controls controlsList="fullscreen" poster="poster.png">
+
+
+
+
+    <video id="videoPlayer" style="width:100%" controls controlsList="fullscreen" poster="poster2.png">
       <source id="videoSource" src="" type="video/mp4">
     </video>
+
+<div>
+  <button id="speedBtn" type="button">Speed</button>
+  <ul id="speedMenu">
+    <li data-speed="0.25">0.25x</li>
+    <li data-speed="0.5">0.5x</li>
+    <li data-speed="0.75">0.75x</li>
+    <li data-speed="1" class="active">1x</li>
+    <li data-speed="1.25">1.25x</li>
+    <li data-speed="1.5">1.5x</li>
+    <li data-speed="2">2x</li>
+    <li data-speed="2.5">2.5x</li>
+    <li data-speed="3">3x</li>
+    <li data-speed="3.5">3.5x</li>
+    <li data-speed="4">4x</li>
+    <li data-speed="6">6x</li>
+    <li data-speed="8">8x</li>
+    <li data-speed="10">10x</li>
+    <li data-speed="12">12x</li>
+    <li data-speed="16">16x</li>
+  </ul>
+</div>
+
+
+
     <div id="playlist">
       <table>
         <thead>
+
 
           <tr>
             <th id="titulo" >Título</th>				
@@ -106,6 +136,36 @@
 <script>
 playVideo("main.m3u");
 
+</script>
+
+
+
+
+<script>
+  var video = document.getElementById("videoPlayer");
+  var speedBtn = document.getElementById("speedBtn");
+  var speedMenu = document.getElementById("speedMenu");
+
+  function changeSpeed(speed) {
+    video.playbackRate = speed;
+    speedMenu.querySelector(".active").classList.remove("active");
+    speedMenu.querySelector("[data-speed='" + speed + "']").classList.add("active");
+  }
+
+  speedBtn.addEventListener("click", function() {
+    speedMenu.classList.toggle("visible");
+  });
+
+  speedMenu.addEventListener("click", function(event) {
+    if (event.target.tagName === "LI") {
+      var speed = parseFloat(event.target.dataset.speed);
+      changeSpeed(speed);
+      speedMenu.classList.remove("visible");
+    }
+  });
+
+  // Set initial playback rate to 1x
+  changeSpeed(1);
 </script>
   </body>
 </html>

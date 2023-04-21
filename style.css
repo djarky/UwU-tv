@@ -354,3 +354,52 @@ td:last-child {
         transform: translateX(-50%) translateY(-100%) rotate(360deg);
       }
     }
+
+
+/*speedrun */
+
+#speedBtn{
+ right: 0;
+ padding: 0;
+ margin: 0;
+ float:right;
+ position: absolute;
+ top: 60px;
+} 
+
+
+
+  #speedMenu {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    overflow-y: scroll;
+    max-height: 100px;
+  
+  }
+
+  #speedMenu.visible {
+    display: block;
+  }
+
+  #speedMenu li {
+    padding: 4px;
+    cursor: pointer;
+  }
+
+  #speedMenu li:hover {
+    background-color: #f3f3f3;
+  }
+
+  #speedMenu .active {
+    background-color: #f3f3f3;
+    font-weight: bold;
+  }
