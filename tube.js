@@ -193,6 +193,7 @@ function parsePlaylistCrazy(str) {
 
 
 function showPlaylist(playlist) {
+let PlayerTitle= document.getElementById("PlayerTitle");
   const tbody = document.querySelector("#playlist tbody");
   tbody.innerHTML = "";
 
@@ -212,6 +213,7 @@ function showPlaylist(playlist) {
     row.addEventListener("click", () => {
 		history.push({ file: item.file , title: item.title, length: 0 });
       playVideo(item.file);
+      PlayerTitle.textContent = item.title;
       highlightRow(row);
     });
 
