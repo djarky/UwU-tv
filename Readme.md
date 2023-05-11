@@ -16,6 +16,9 @@ https://djarky.github.io/UwU-tv/new-uwu-tv.html
 for old browsers if work
 https://djarky.github.io/UwU-tv/old-uwu-tv.html
 
+experimental torrents browser
+https://djarky.github.io/UwU-tv/tor/torrents-tv.html
+
 other things, try replace some txt notes... or no maybe don't work 
 
 [![Run on Repl.it](https://replit.com/badge/github/djarky/UwU-tv)](https://replit.com/new/github/djarky/UwU-tv)
