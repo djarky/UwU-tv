@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"  />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UwU TV</title>
+
+  
+<a>experimental torrents function based on:</a>
+<a>https://github.com/bipuldey19/Torrent-Searcher-API-with-Website</a>
+
+
+
+  </head>
+  <body>
+    <form>
+      <div class="search-container">
+
+<button id="serverBtn" type="button" onclick="showServerMenu()">
+  <i class="fas fa-bars"></i>
+</button>
+
+<div id="serverMenu" class="search-menu">
+  <br>
+  <a href="https://djarky.github.io/UwU-tv">clasic UwU-tv</a>
+ 
+<a href="#" onclick="setServer('1337x')">1337x</a>
+<a href="#" onclick="setServer('yts')">yts</a>
+<a href="#" onclick="setServer('eztv')">eztv</a>
+<a href="#" onclick="setServer('Torrent Galaxy')">Torrent Galaxy</a>
+<a href="#" onclick="setServer('Torlock')">Torlock</a>
+<a href="#" onclick="setServer('PirateBay')">PirateBay</a>
+<a href="#" onclick="setServer('Nyaasi')">Nyaasi</a>
+<a href="#" onclick="setServer('Rarbg')">Rarbg</a>
+<a href="#" onclick="setServer('Ettv')">Ettv</a>
+<a href="#" onclick="setServer('Zooqle')">Zooqle</a>
+<a href="#" onclick="setServer('KickAss')">KickAss</a>
+<a href="#" onclick="setServer('Bitsearch')">Bitsearch</a>
+<a href="#" onclick="setServer('Glodls')">Glodls</a>
+<a href="#" onclick="setServer('MagnetDL')">MagnetDL</a>
+<a href="#" onclick="setServer('LimeTorrent')">LimeTorrent</a>
+<a href="#" onclick="setServer('TorrentFunk')">TorrentFunk</a>
+<a href="#" onclick="setServer('TorrentProject')">TorrentProject</a>
+<a href="#" onclick="setServer('all')">all</a>
+
+
+</div>
+
+        <input type="text" id="searchText">
+        <button  id="searchBtn" type="button" onclick="search()"><i class="fas fa-search "></i></button>
+      </div>
+    </form>
+    <br>
+
+
+
+
+<label class="switch">
+  <input type="checkbox" id="proxySwitch">
+  <span class="slider"></span>
+  <div class="pokeball">
+    <div class="top"></div>
+    <div class="bottom"></div>
+    <div class="center"></div>
+    <div class="button"></div>
+  </div>
+</label>
+
+<label class="switch">
+  <input type="checkbox" id="pySwitch">
+  <span class="slider"></span>
+  <div class="pokeball">
+    <div class="top"></div>
+    <div class="bottom"></div>
+    <div class="center"></div>
+    <div class="button"></div>
+  </div>
+</label>
+
+
+
+<label class="switch" onclick=" ferchino(flaskserver+'/show_deco?q=' );" >
+  <span class="slider"></span>
+  <div class="pokeball">
+  <a>py</a>
+  </div>
+</label>
+
+<label class="switch">
+<span class="slider">
+<button class="clock-button" onclick="rotateClockButton();"></button>
+</span>
+</label>
+
+
+
+
+
+
+
+
+    <div  id="videoPlayer" class="webtor" style="width:100%" />
+    <script src="https://cdn.jsdelivr.net/npm/@webtor/embed-sdk-js/dist/index.min.js" charset="utf-8" async></script>
+
+
+
+
+    <div id="playlist">
+      <table>
+        <thead>
+
+
+          <tr>
+            <th id="titulo" >Título</th>				
+            <th id="duracion" >Duración</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+<td id="updir" onclick="playVideo('main.m3u');">/.. </td>
+<td id="historia" onclick="showhistory();">...</td>
+      </table>
+    </div>
+    <script src="torrent.js"></script>
+ <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript">
+    </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js">
+    </script> 
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script>
+/*playVideo("main.m3u");*/
+
+</script>
+
+
+
+
+
+  </body>
+</html>
