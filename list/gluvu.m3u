@@ -1,6 +1,13 @@
 #EXTM3U
-#EXTINF:-1,Peliculas
+#EXTINF:-1,wii pasión Peliculas
 http://passionstreamingwii.myartsonline.com/Passion%20Wii%20Streaming
 #EXTINF:-1,zona kids
 http://passionstreamingwii.myartsonline.com/Zona%20Kids
-
+#EXTINF:-1,m3u
+https://www.m3u.cl/lista/total.m3u
+#EXTINF:-1,tdt
+https://www.tdtchannels.com/lists/tv.m3u8
+#EXTINF:-1,tdt2
+https://www.tdtchannels.com/lists/tv_mpd.m3u8
+#EXTINF:-1,tdt radios
+https://www.tdtchannels.com/lists/tvradio.m3u8
